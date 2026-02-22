@@ -86,9 +86,9 @@ Browse the results in a responsive grid
 If the poster is missing, a placeholder image will be shown
 
 Screenshots
-<img src="assets/mobile.png" width="960px" height="469px" alt="mobile" />
-<img src="assets/tablet.png" width="960px" height="469px" alt="tablet" />
-<img src="assets/desktop.png" width="960px" height="469px" alt="desktop" />
+<img src="/assets/mobile.png" width="960px" height="469px" alt="mobile" />
+<img src="/assets/tablet.png" width="960px" height="469px" alt="tablet" />
+<img src="/assets/desktop.png" width="960px" height="469px" alt="desktop" />
 
 
 
