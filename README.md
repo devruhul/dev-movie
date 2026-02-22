@@ -86,9 +86,10 @@ Browse the results in a responsive grid
 If the poster is missing, a placeholder image will be shown
 
 Screenshots
-![Mobile](assets/image.png)
-![Tablet](assets/image-1.png)
-![Desktop](assets/image-2.png)
+![Mobile](/assets/mobile.png)
+![Tablet](/assets/tablet.png)
+![Desktop](/assets/desktop.png)
+
 
 
 Future Improvements
