@@ -86,9 +86,10 @@ Browse the results in a responsive grid
 If the poster is missing, a placeholder image will be shown
 
 Screenshots
-![Mobile](/assets/mobile.png)
-![Tablet](/assets/tablet.png)
-![Desktop](/assets/desktop.png)
+<img src="assets/mobile.png" width="960px" height="469px" alt="mobile" />
+<img src="assets/tablet.png" width="960px" height="469px" alt="tablet" />
+<img src="assets/desktop.png" width="960px" height="469px" alt="desktop" />
+
 
 
 
@@ -112,5 +113,5 @@ Author
 
 Ruhul Amin
 GitHub
- | Portfolio
+Portfolio
 ```
