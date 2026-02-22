@@ -41,17 +41,23 @@ Live demo: [Netlify](https://ruhul-dev-movie.netlify.app/)
 
 src/
 ├── components/
-│ ├── MovieCard.jsx
-│ ├── MovieList.jsx
-│ └── SearchBar.jsx
-├── services/
-│ └── api.js // API fetch functions
+│ ├── Movie.jsx
+│ ├── Movies.jsx
 ├── App.jsx
 ├── main.jsx
 └── App.css
+└── assets
+│ ├── mobile.png
+│ ├── tablet.png
+│ ├── desktop.png
 .env // VITE_OMDB_API_KEY=your_api_key
 
 ---
+
+Screenshots
+![Mobile view](assets/mobile.png)
+![Tablet view](assets/tablet.png)
+![Desktop view](assets/desktop.png)
 
 ## Setup Instructions
 
@@ -85,14 +91,6 @@ Browse the results in a responsive grid
 
 If the poster is missing, a placeholder image will be shown
 
-Screenshots
-<img src="/assets/mobile.png" width="960px" height="469px" alt="mobile" />
-<img src="/assets/tablet.png" width="960px" height="469px" alt="tablet" />
-<img src="/assets/desktop.png" width="960px" height="469px" alt="desktop" />
-
-
-
-
 Future Improvements
 
 Add movie details page with plot, actors, and ratings
@@ -108,10 +106,11 @@ Add dark/light mode toggle
 License
 
 This project is open-source and free to use.
-
+```
 Author
 
 Ruhul Amin
-GitHub
-Portfolio
-```
+
+[GitHub](https://github.com/devruhul)
+
+[Portfolio](https://devruhul.netlify.app/)
