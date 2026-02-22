@@ -1,17 +1,115 @@
-# React + Vite
+# Dev Movie 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Netflix-style movie search app** built with **React** and **Vite**, using the **OMDb API**.  
+Users can search for movies, view movie posters, and see basic movie details in a **responsive grid layout**.
 
-Currently, two official plugins are available:
+The app is designed to be **mobile-friendly** and uses **React components, state, and API integration** for practice.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live demo: [Netlify](https://ruhul-dev-movie.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# dev-movie
+## Features
+
+- Search movies by title
+- Display results in **responsive grid**:
+  - Desktop: 3 cards per row
+  - Tablet: 2 cards per row
+  - Mobile: 1 card per row
+- Movie cards show: poster, title, year
+- Handles `"N/A"` posters with placeholder images
+- Loading spinner when fetching movies
+- Error messages for movies not found or API errors
+
+---
+
+## Tech Stack
+
+- **React** (functional components)
+- **Vite** (fast development environment)
+- **OMDb API** (movie database)
+- **CSS Grid & Flexbox** for responsive layout
+- **Environment Variables** (`.env`) to store API key
+
+---
+
+## Project Structure
+
+src/
+├── components/
+│ ├── MovieCard.jsx
+│ ├── MovieList.jsx
+│ └── SearchBar.jsx
+├── services/
+│ └── api.js // API fetch functions
+├── App.jsx
+├── main.jsx
+└── App.css
+.env // VITE_OMDB_API_KEY=your_api_key
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/devruhul/dev-movie
+cd dev-movie
+
+Install dependencies:
+
+npm install
+
+Create a .env file in the project root:
+
+VITE_OMDB_API_KEY=your_api_key_here
+
+Start the development server:
+
+npm run dev
+
+Open your browser at http://localhost:5173
+
+How to Use
+
+Type a movie name in the search bar
+
+Click Search Movies
+
+Browse the results in a responsive grid
+
+If the poster is missing, a placeholder image will be shown
+
+Screenshots
+![Mobile](assets/image.png)
+![Tablet](assets/image-1.png)
+![Desktop](assets/image-2.png)
+
+
+Future Improvements
+
+Add movie details page with plot, actors, and ratings
+
+Add filter by year or type
+
+Add pagination for OMDb results
+
+Implement debounced search
+
+Add dark/light mode toggle
+
+License
+
+This project is open-source and free to use.
+
+Author
+
+Ruhul Amin
+GitHub
+ | Portfolio
+```
